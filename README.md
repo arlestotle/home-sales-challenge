@@ -79,15 +79,15 @@ only showing top 20 rows
 7. Check if your temporary table is cached.
 8. Using the cached data, run the query that filters out the view ratings with an average price of greater than or equal to $350,000. 
 - Determine the runtime and compare it to uncached runtime.
-    - Using the cached data the runtime was 0.586 seconds whereas the uncached data runtime was 1.591. 
+    - Using the cached data the runtime was 0.703 seconds whereas the uncached data runtime was 1.453. 
     - Cached data is used to quickly load the application or website's information every time the user subsequently opens or visits it.
 
 9. Partition by the "date_built" field on the formatted parquet home sales data.
 10. Create a temporary table for the parquet data.
 11. Run the query that filters out the view ratings with an average price of greater than or equal to $350,000. 
 - Determine the runtime and compare it to uncached runtime.
-     - Using the parquet data the runtime was 0.562 seconds. 
-     - Using the cached data the runtime was 0.586 seconds. 
+     - Using the parquet data the runtime was 0.449 seconds. 
+     - Using the cached data the runtime was 0.703 seconds. 
      - The parquet files load slightly faster than the cached data because the parquet data is organized into row groups, which are further divided into pages. 
      - This allows for fast data access, as only the necessary row groups and pages need to be loaded into memory.
 
