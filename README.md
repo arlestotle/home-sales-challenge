@@ -11,28 +11,28 @@
 5. Answer the following questions using SparkSQL:
 
 - What is the average price for a four-bedroom house sold for each year? Round off your answer to two decimal places.
-   ` +----+-------------+
-    |year|average_price|
-    +----+-------------+
-    |2022|    296363.88|
-    |2021|    301819.44|
-    |2020|    298353.78|
-    |2019|     300263.7|
-    +----+-------------+`
+   ` +----+-------------+ `
+   ` |year|average_price|`
+   ` +----+-------------+`
+    `|2022|    296363.88|`
+    `|2021|    301819.44|`
+    `|2020|    298353.78|`
+    `|2019|     300263.7|`
+    `+----+-------------+`
 
 - What is the average price of a home for each year it was built that has three bedrooms and three bathrooms? Round off your answer to two decimal places.
-` +----------+-------------+
-|year_built|average_price|
-+----------+-------------+
-|      2017|    292676.79|
-|      2016|    290555.07|
-|      2015|     288770.3|
-|      2014|    290852.27|
-|      2013|    295962.27|
-|      2012|    293683.19|
-|      2011|    291117.47|
-|      2010|    292859.62|
-+----------+-------------+`
+` +----------+-------------+`
+`|year_built|average_price|`
+`+----------+-------------+`
+`|      2017|    292676.79|`
+`|      2016|    290555.07|`
+`|      2015|     288770.3|`
+`|      2014|    290852.27|`
+`|      2013|    295962.27|`
+`|      2012|    293683.19|`
+`|      2011|    291117.47|`
+`|      2010|    292859.62|`
+`+----------+-------------+`
 
 - What is the average price of a home for each year that has three bedrooms, three bathrooms, two floors, and is greater than or equal to 2,000 square feet? Round off your answer to two decimal places.
     `+----------+-------------+
